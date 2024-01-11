@@ -52,5 +52,13 @@ export default defineConfig({
   },
   server: {
     port: 3000,
+    proxy: {
+      // Configurar proxy para permitir CORS
+      '/src/assets/fonts/': {
+        target: 'http://localhost:3000', // Altere para o endereço do seu servidor local
+        changeOrigin: true,
+        secure: false,
+      },
+    },
   },
 })

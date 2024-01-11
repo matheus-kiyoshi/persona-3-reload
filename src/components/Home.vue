@@ -54,6 +54,16 @@ const playSecondVideo = () => {
     height: 96px;
     margin-top: 20px;
     margin-left: 20px;
+    animation: fadeIn 3s ease-in;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   #hidden {
