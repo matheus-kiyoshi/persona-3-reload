@@ -1,10 +1,11 @@
 <template>
-  <Loading />
+  <Loading v-if="!home" />
+  <Home v-if="home" />
 </template>
 
 <script lang="ts" setup>
   import Loading from '@/components/Loading.vue'
-import { ref } from 'vue';
+  import { ref } from 'vue';
 
   const home = ref(false);
 
