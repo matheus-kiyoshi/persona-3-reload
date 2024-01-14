@@ -1,6 +1,9 @@
 <template>
   <Loading v-if="!home" />
-  <Home v-if="home" />
+  <div v-if="home">
+    <Home />
+    <Trailer />
+  </div>
 </template>
 
 <script lang="ts" setup>

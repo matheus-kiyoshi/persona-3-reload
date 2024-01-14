@@ -13,6 +13,7 @@ declare module 'vue' {
     LoadingHome: typeof import('./src/components/LoadingHome.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Trailer: typeof import('./src/components/Trailer.vue')['default']
     Waves: typeof import('./src/components/Waves.vue')['default']
   }
 }
