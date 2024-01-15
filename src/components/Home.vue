@@ -137,10 +137,9 @@ const playSecondVideo = () => {
   }
 
   .movie {
-    position: absolute;
-    width: 1545px;
-    height: 100vh;
-    left: -25%;
+    position: absolute;;
+    left: -45%;
+    top: -10%;
   }
 
   .overlay {
@@ -148,6 +147,25 @@ const playSecondVideo = () => {
     top: 0;
     left: -8%;
     overflow: hidden;
+  }
+
+  @media screen and (max-height: 759px) {
+    .movie {
+      top: -35%;
+      left: -25%;
+    }
+  }
+
+  @media screen and (min-height: 760px) and (max-height: 840px) {
+    .movie {
+      top: -20%;
+    }
+  }
+
+  @media screen and (min-height: 1050px) {
+    .movie {
+      top: 0;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -158,8 +176,6 @@ const playSecondVideo = () => {
 
   @media screen and (min-width: 540px) {
     .movie {
-      width: 1545px;
-      height: 100vh;
       left: 0;
     }
     .title-logo {
@@ -168,11 +184,6 @@ const playSecondVideo = () => {
   }
   
   @media screen and (min-width: 1024px) {
-    .movie {
-      width: 1545px;
-      height: 100vh;
-      left: 10%;
-    }
     .title-logo {
       position: absolute;
       width: calc(303px * 1600 / 1920);

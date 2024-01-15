@@ -38,9 +38,10 @@
     height: 100%;
     object-fit: cover;
     filter: grayscale(100%);
+    background: rgb(0, 0, 0, 0.7);
   }
 
-  .movie:hover {
+  .pv-area:hover .movie {
     opacity: 100;
   }
 
@@ -79,8 +80,9 @@
   }
 
   .pv .play {
+    color: #1d384a;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
+    font-size: xx-large;
     position: absolute;
     z-index: 50;
     display: -webkit-box;
@@ -102,9 +104,9 @@
   }
 
   .pv .play .arrow {
-    width: 22px;
-    height: 21px;
-    margin-bottom: 2px;
+    width: 32px;
+    height: 31px;
+    margin-bottom: 8px;
     display: inline-block;
     margin-left: 14px;
     -webkit-transition: -webkit-transform 0.3s linear;
