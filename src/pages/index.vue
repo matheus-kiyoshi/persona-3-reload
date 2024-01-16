@@ -5,6 +5,7 @@
   <div v-if="home" class="wrap">
     <Home />
     <Trailer />
+    <Story />
   </div>
 </template>
 

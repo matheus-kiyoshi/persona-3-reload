@@ -189,7 +189,7 @@ const playSecondVideo = () => {
       width: calc(303px * 1600 / 1920);
       height: 100vh;
       left: 65vw;
-      top: 40%;
+      top: 15%;
       margin-top: 0;
       margin-left: 0;
     }
