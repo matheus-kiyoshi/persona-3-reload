@@ -6,6 +6,9 @@
     <Home />
     <Trailer />
     <Story />
+    <div class="">
+      <Characters />
+    </div>
   </div>
 </template>
 

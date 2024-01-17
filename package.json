@@ -2,7 +2,7 @@
   "name": "p3reload",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix --ignore-path .gitignore"
@@ -13,16 +13,14 @@
     "@mdi/js": "^7.4.47",
     "@vueuse/core": "^10.7.2",
     "animate.css": "^4.1.1",
-    "aos": "^2.3.4",
     "core-js": "^3.34.0",
-    "d3-wave": "^1.1.5",
     "roboto-fontface": "*",
     "vue": "^3.3.0",
+    "vue-scroll-snap": "^0.1.11",
     "vuetify": "^3.0.0"
   },
   "devDependencies": {
     "@babel/types": "^7.23.0",
-    "@types/aos": "^3.0.7",
     "@types/node": "^20.10.0",
     "@vitejs/plugin-vue": "^4.5.0",
     "@vue/eslint-config-typescript": "^12.0.0",

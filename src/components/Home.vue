@@ -139,7 +139,7 @@ const playSecondVideo = () => {
   .movie {
     position: absolute;;
     left: -45%;
-    top: -10%;
+    top: -4%;
   }
 
   .overlay {
@@ -149,14 +149,14 @@ const playSecondVideo = () => {
     overflow: hidden;
   }
 
-  @media screen and (max-height: 759px) {
+  @media screen and (min-width: 680px) and (max-height: 759px) {
     .movie {
       top: -35%;
       left: -25%;
     }
   }
 
-  @media screen and (min-height: 760px) and (max-height: 840px) {
+  @media screen and (min-width: 680px) and (min-height: 760px) and (max-height: 840px) {
     .movie {
       top: -20%;
     }

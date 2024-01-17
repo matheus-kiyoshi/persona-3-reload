@@ -16,7 +16,6 @@ html::-webkit-scrollbar {
 }
 
 html {
-  height: 5000px;
   scrollbar-width: thin;
   scrollbar-gutter: stable;
   scrollbar-color: rgb(9, 111, 194) transparent;
