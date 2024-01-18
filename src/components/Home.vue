@@ -156,7 +156,7 @@ const playSecondVideo = () => {
     }
   }
 
-  @media screen and (min-width: 680px) and (min-height: 760px) and (max-height: 840px) {
+  @media screen and (min-width: 680px) and (max-width: 980px) and (min-height: 760px) and (max-height: 840px) {
     .movie {
       top: -20%;
     }
@@ -189,7 +189,7 @@ const playSecondVideo = () => {
       width: calc(303px * 1600 / 1920);
       height: 100vh;
       left: 65vw;
-      top: 15%;
+      top: 10%;
       margin-top: 0;
       margin-left: 0;
     }
