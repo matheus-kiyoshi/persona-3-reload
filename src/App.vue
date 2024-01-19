@@ -1,13 +1,12 @@
 <template>
   <v-app>
     <v-main>
-      <router-view />
+      <IndexPage />
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts" setup>
-  //
 </script>
 
 <style>
@@ -16,6 +15,7 @@ html::-webkit-scrollbar {
 }
 
 html {
+  scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-gutter: stable;
   scrollbar-color: rgb(9, 111, 194) transparent;
